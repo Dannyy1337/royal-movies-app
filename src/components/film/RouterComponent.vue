@@ -106,7 +106,23 @@ export default {
 }
 
 .scroll-btn {
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+  position: absolute;
+  top: 95%;
+  & a {
+    color: rgba(255, 255, 255, 0.418);
+    &:hover {
+      color: white;
+    }
+  }
+  &:hover {
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    transition: 0.7s ease;
+    opacity: 0.4;
+    background: rgba(128, 128, 128, 0);
+  }
 }
 
 .root {
