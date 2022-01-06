@@ -1,8 +1,8 @@
 <template>
   <div class="product-list">
     <div class="header-section">
-      <h2>
-        <span class="orange"> Рекомендуем</span><br />
+      <h2 class="rec-text">
+        <span class="orange"> Рекомендуем</span>
         к просмотру:
       </h2>
       <div class="caroseul">
@@ -82,6 +82,8 @@ export default {
 </script>
 
 <style lang='scss'>
+
+
 .search {
   max-height: 0;
   transition: max-height 0.2s ease-out;
@@ -119,6 +121,9 @@ export default {
     color: white;
     font-size: 50px;
     margin-left: 30px;
+  }
+  & .rec-text {
+    max-width: 350px;
   }
 }
 

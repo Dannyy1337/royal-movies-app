@@ -1,6 +1,19 @@
 
 
-// @media only screen and (max-width: 1500px) {}
+@media only screen and (max-width: 1460px) {
+    .header-section {
+        & .rec-text{
+            max-width: 300px;
+            margin-left: 0 !important;
+        }
+    }
+}
+@media only screen and (max-width: 1430px) {
+.rec-text {
+    max-width: 100% !important;
+    margin-bottom: 50px;
+}
+ }
 @media only screen and (max-width: 1200px) {
     .list-default {
         justify-content: space-evenly;
