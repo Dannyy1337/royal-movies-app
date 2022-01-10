@@ -156,6 +156,10 @@ export default {
         background: rgba(0, 0, 0, 0.2);
         color: whitesmoke;
       }
+      &:hover {
+        border: 1px solid rgb(128, 128, 128);
+        transition: 0.25s ease;
+      }
     }
 
     & .btn {
